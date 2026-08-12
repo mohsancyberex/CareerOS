@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "greenhouse",
+      "type": "greenhouse",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "lever",
+      "type": "lever",
+      "enabled": true,
+      "priority": 1
+    },
+    {
+      "id": "ashby",
+      "type": "ashby",
+      "enabled": true,
+      "priority": 1
+    }
+  ]
+}
