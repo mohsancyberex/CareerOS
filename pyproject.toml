@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+
+[project]
+name = "careeros"
+version = "0.1.0"
+description = "CareerOS automated job discovery and application intelligence platform"
+requires-python = ">=3.9"
+dependencies = [
+    "boto3",
+    "requests",
+    "beautifulsoup4",
+    "pydantic",
+    "python-dotenv",
+    "notion-client"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
